@@ -1,12 +1,12 @@
-# Task Manager Client (Default)
+# Task Manager Client
 
 This is a Task Management Front-End (Client) that is built to consume a back end Rest API.
 
 ## ✨ Tech Stack Used
 - Vue 3 Composition API
 - Pinia (State Management)
-- Axios (to make API calls)
 - Vuetify UI Library
+- Axios (to make API calls)
 
 ## Features
 - Add Task
