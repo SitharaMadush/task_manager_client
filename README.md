@@ -15,7 +15,7 @@ This is a Task Management Front-End (Client) that is built to consume a back end
 - Delete Tasks
 - View/ Filter tasks based on status
 
-## 💿 Setup Guide
+## 💿 Local Setup Guide
 
 1. Clone the repository
 
@@ -35,11 +35,12 @@ rename .env.example file as .env and save your API base url as VITE_API_BASE_URL
 The built in docker setup can be used to setup the local server environment.
 Please install docker on your computer before proceeding the following steps.
 
+Build and run the builtin docker environment
 ```bash
 docker compose up -d
 ```
 
-the project will start running locally on http://172.20.0.2:3000
+Finally, the project starts running locally on http://172.20.0.2:3000 connected with the backend API. Taraaa...!!!
 
 
 💪 Developed by ~ Sithara Madushan ~ 💪 
