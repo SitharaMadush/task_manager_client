@@ -1,8 +1,40 @@
-# Vuetify (Default)
+# Task Manager Client (Default)
 
-This is the official scaffolding tool for Vuetify, designed to give you a head start in building your new Vuetify application. It sets up a base template with all the necessary configurations and standard directory structure, enabling you to begin development without the hassle of setting up the project from scratch.
+This is a Task Management Front-End (Client) that is built to consume a back end Rest API.
 
-## ❗️ Important Links
+## Tech Stack Used
+- Vue 3 Composition API
+- Pinia (State Management)
+- Axios (to make API calls)
+- Vuetify UI Library
+
+## 💿 Setup Guide
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/SitharaMadush/task_manager_client
+```
+
+cd into the project directory
+
+```bash
+cd task_manager_client
+```
+Open the project in your code editor
+
+rename .env.example file as .env and save your API base url as VITE_API_BASE_URL.
+
+The built in docker setup can be used to setup the local server environment.
+Please install docker on your computer before proceeding the following steps.
+
+```bash
+docker compose up -d
+```
+
+the project will start running locally on http://172.20.0.2:3000
+
+
 
 - 📄 [Docs](https://vuetifyjs.com/)
 - 🚨 [Issues](https://issues.vuetifyjs.com/)
@@ -10,7 +42,7 @@ This is the official scaffolding tool for Vuetify, designed to give you a head s
 - 🎮 [Playground](https://play.vuetifyjs.com/)
 - 💬 [Discord](https://community.vuetifyjs.com)
 
-## 💿 Install
+## 💿 Setup Guide
 
 Set up your project using your preferred package manager. Use the corresponding command to install the dependencies:
 
